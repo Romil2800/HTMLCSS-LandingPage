@@ -202,8 +202,7 @@ section {
     color: #faa541;
 }
 
-.hero h1,
-.hero h2 {
+.hero div h1, .hero div h2 {
     font-size: 63px;
     font-weight: 700;
     line-height: 0.9;
