@@ -242,6 +242,7 @@ section {
     margin-top: 5px;
 }
 
+
 .category {
     flex: 0 0 25%;
     padding: 0 15px;
@@ -261,7 +262,7 @@ section {
 .category-text>div {
     font-size: 16px;
     font-weight: 200;
-    columns: #faa541;
+    color: #faa541;
 }
 
 .category-text h3 {
