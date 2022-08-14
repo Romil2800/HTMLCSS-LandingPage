@@ -1,4 +1,3 @@
-/************* BASE STYLES *************/
 * {
     box-sizing: border-box;
 }
@@ -41,6 +40,8 @@ h6 {
     margin: 0;
 }
 
+/*****************************************/
+
 .container {
     margin: 0 auto;
     max-width: 1170px;
@@ -63,28 +64,28 @@ section {
 }
 
 .align-center {
-    align-items: center
+    align-items: center;
 }
 
 .center {
-    justify-content: center
+    justify-content: center;
 }
 
 .space-between {
-    justify-content: space-between
+    justify-content: space-between;
 }
 
 .btn {
     cursor: pointer;
     border: 0;
     padding: 6px 12px;
-    border-radius: 3px;
     line-height: 1.4;
+    border-radius: 3px;
 }
 
 .btn-default {
-    background-color: #faa541;
     color: #ffffff;
+    background-color: #faa541;
 }
 
 .btn-primary {
@@ -95,14 +96,14 @@ section {
 .form-control {
     display: block;
     padding: 6px 12px;
-    border: 1px solid #a0a0a0;
-    color: #8598a2;
     line-height: 1.4;
+    color: #8598a2;
+    border: 1px solid #a0a0a0;
 }
 
 .text-light {
     font-size: 30px;
-    color: #a0a0a0;
+    color: #A0A0A0;
 }
 
 .text-secondary {
@@ -115,8 +116,9 @@ section {
     color: #364147;
 }
 
+
 .header-nav {
-    border-bottom: 1px #a0a0a0;
+    border-bottom: 1px solid #a0a0a0;
 }
 
 .brand {
@@ -140,16 +142,16 @@ section {
 
 .search-button {
     background-color: #a0a0a0;
-    color: #ffffff;
-    height: 30px;
     width: 100px;
+    height: 30px;
+    color: #ffffff;
     border: 0;
     padding: 0;
 }
 
 .nav-list {
-    padding-left: 0;
     width: 575px;
+    padding-left: 0;
     margin-top: 10px;
 }
 
@@ -167,8 +169,8 @@ section {
 .account {
     text-align: right;
     padding: 15px;
-    color: #364147;
     font-size: 18px;
+    color: #364147;
 }
 
 .account a {
@@ -184,6 +186,7 @@ section {
     border-radius: 100px;
     max-width: 100%;
 }
+
 
 .hero {
     background-image: url('../img/hero.jpg');
@@ -202,8 +205,8 @@ section {
     color: #faa541;
 }
 
-.hero div h1,
-.hero div h2 {
+.hero h1,
+.hero h2 {
     font-size: 63px;
     font-weight: 700;
     line-height: 0.9;
@@ -273,7 +276,7 @@ section {
 
 .full-banner {
     padding: 0 15px;
-    margin: 50px 0;
+    margin: 50px 0px;
     position: relative;
 }
 
@@ -384,6 +387,32 @@ footer a:hover {
     text-decoration: underline;
 }
 
+.newsletter .link-header {
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.newsletter .link-subheader {
+    font-style: italic;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.newsletter input {
+    border: 1px solid #364147;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+.newsletter button {
+    width: 150px;
+    min-width: auto;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
 .social ul li {
     display: inline-block;
 }
@@ -410,32 +439,6 @@ footer a:hover {
 
 .pinterest {
     background-image: url('../img/pinterest.svg');
-}
-
-.newsletter .link-header {
-    font-size: 12px;
-    font-weight: 400;
-    margin-bottom: 5px;
-}
-
-.newsletter .link-subheader {
-    font-style: italic;
-    font-size: 12px;
-    font-weight: 400;
-    margin-bottom: 15px;
-}
-
-.newsletter input {
-    border: 1px solid #364147;
-    width: 200px;
-    margin-bottom: 10px;
-}
-
-.newsletter button {
-    width: 150px;
-    min-width: auto;
-    text-transform: uppercase;
-    letter-spacing: 1px;
 }
 
 .ps {
@@ -468,4 +471,3 @@ footer a:hover {
     flex: 0 0 75%;
     padding: 10px 0;
 }
-/***************************************/
